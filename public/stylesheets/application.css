@@ -1,0 +1,40 @@
+body {
+  background-color: #FEFEFE;
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, sans-serif; 
+  margin: 0; }
+
+h1 {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", serif;
+  color: #4A4A4A;
+  margin: 1;
+  padding: 1px 8px;
+  font-size: 1.8em; }
+
+form {
+  background-color: #EEEEEE;
+  padding: 1em 2em;
+  border-top: 2px solid #4A4A4A;
+  border-bottom: 2px solid #4A4A4A;
+  border-right: 2px solid #4A4A4A; }
+  form.search-form label {
+    color: #4A4A4A;
+    font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, sans-serif; }
+  form.search-form input {
+    background-color:#FFF;
+    padding: 4px;
+    border: solid 1px #4A4A4A;
+    font-size: 0.8em;
+    margin:0;
+    font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, sans-serif; }
+    form.search-form input[type=submit] {
+      color: #F43E71; }
+
+.results-container {
+  background-color: #FFFFFF;
+  padding: 1em 2em;
+  border-top: 2px solid #4A4A4A;
+  border-bottom: 2px solid #4A4A4A;
+  border-right: 2px solid #4A4A4A; }
+
+
+
