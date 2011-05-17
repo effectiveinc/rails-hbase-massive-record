@@ -1,7 +1,7 @@
 class Link < MassiveRecord::ORM::Table
 
-  def self.new_id
-    Time.now.to_i.to_s(36)
+  def self.new_id(url)
+    Zlib.crc32(url).to_s(36)
   end
 
   default_scope select(:core)
