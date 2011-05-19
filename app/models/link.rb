@@ -4,9 +4,12 @@ class Link < MassiveRecord::ORM::Table
     Zlib.crc32(url).to_s(36)
   end
 
-  default_scope select(:core)
-
   column_family :core do
     field :link
   end
+  
+  column_family :meta do
+    field :title
+    field :summary
+  end  
 end
