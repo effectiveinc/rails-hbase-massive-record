@@ -1,0 +1,12 @@
+defaults: &defaults
+  host: 10.1.184.237
+  port: 9090
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
